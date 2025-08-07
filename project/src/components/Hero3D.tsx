@@ -52,7 +52,7 @@ const Hero3D: React.FC = () => {
                   }}
                   style={{ backgroundSize: '200% 200%' }}
                 >
-                  3D Reality
+                  Reality
                 </motion.span>
               </motion.h1>
               
@@ -62,7 +62,7 @@ const Hero3D: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7, duration: 0.8 }}
               >
-                Experience fashion like never before with our immersive 3D shopping experience. 
+                Experience fashion like never before with our immersive shopping experience. 
                 Premium quality meets cutting-edge technology.
               </motion.p>
 

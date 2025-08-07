@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              StyleHub 3D
+              StyleHub
             </motion.span>
           </Link>
 

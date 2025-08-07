@@ -49,7 +49,7 @@ const Home: React.FC = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Trending in 3D
+              Trending Products
             </motion.h2>
             <motion.p
               className="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -58,7 +58,7 @@ const Home: React.FC = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Experience our most popular items with stunning 3D interactions and immersive shopping
+              Experience our most popular items with stunning interactions and immersive shopping
             </motion.p>
           </motion.div>
 
@@ -124,7 +124,7 @@ const Home: React.FC = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Explore our curated categories with immersive 3D previews
+              Explore our curated categories with immersive previews
             </motion.p>
           </motion.div>
 
@@ -218,7 +218,7 @@ const Home: React.FC = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               viewport={{ once: true }}
             >
-              Why Choose Our 3D Experience?
+              Why Choose Our Experience?
             </motion.h2>
             <motion.p
               className="text-gray-300 max-w-2xl mx-auto text-lg"
@@ -234,13 +234,13 @@ const Home: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Interactive 3D Models",
+                title: "Interactive Models",
                 description: "Rotate, zoom, and explore products from every angle",
                 icon: "🔄"
               },
               {
                 title: "Immersive Experience",
-                description: "Feel like you're in a real boutique with our 3D environment",
+                description: "Feel like you're in a real boutique with our environment",
                 icon: "🌟"
               },
               {
