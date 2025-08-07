@@ -42,7 +42,7 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex space-x-8">
             {[
               { path: '/', label: 'Home' },
-              { path: '/products', label: 'Products' },
+              { path: '/#', label: 'Products' },
               { path: '/cart', label: 'Cart' }
             ].map((item, index) => (
               <motion.div
