@@ -72,7 +72,7 @@ const Hero3D: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.9, duration: 0.8 }}
               >
-                <Link to="/products">
+                <Link to="/#">
                   <motion.button
                     className="bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:shadow-2xl transition-all duration-300 flex items-center justify-center space-x-3 group relative overflow-hidden"
                     whileHover={{ scale: 1.05, y: -2 }}

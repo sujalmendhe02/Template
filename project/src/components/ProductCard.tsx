@@ -80,9 +80,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <div>
             <label className="text-sm font-medium text-gray-700">Size:</label>
             <div className="flex space-x-2 mt-1">
-              {product.sizes.map((size) => (
+              {product.sizes.map((size, index) => (
                 <button
-                  key={size}
+                  key={index}
                   onClick={() => setSelectedSize(size)}
                   className={`px-3 py-1 border rounded text-sm ${
                     selectedSize === size
@@ -99,9 +99,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <div>
             <label className="text-sm font-medium text-gray-700">Color:</label>
             <div className="flex space-x-2 mt-1">
-              {product.colors.map((color) => (
+              {product.colors.map((color, index) => (
                 <button
-                  key={color}
+                  key={index}
                   onClick={() => setSelectedColor(color)}
                   className={`px-3 py-1 border rounded text-sm ${
                     selectedColor === color
